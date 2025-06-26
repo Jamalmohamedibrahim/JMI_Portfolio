@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jamal Mohamed Ibrahim F | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f2f6fc;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+      text-align: center;
+      padding: 100px 20px 60px;
+      position: relative;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #fff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      animation: bounceIn 1s ease forwards;
+      transition: all 0.4s ease;
+    }
+    header img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px 4px #fff;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin-top: 20px;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 5px;
+      opacity: 0.9;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2em;
+      color: #0072ff;
+      margin-bottom: 20px;
+      border-left: 5px solid #0072ff;
+      padding-left: 10px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.7s ease;
+    }
+    .card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .skills span {
+      display: inline-block;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: white;
+      padding: 10px 18px;
+      border-radius: 25px;
+      margin: 6px;
+      font-size: 0.95em;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .skills span:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px #0072ff88;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 12px;
+    }
+    a {
+      color: #0072ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #0072ff;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+      margin-top: 60px;
+    }
+    @keyframes bounceIn {
+      0% { transform: scale(0.5); opacity: 0; }
+      60% { transform: scale(1.2); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2em; }
+      header img { width: 110px; height: 110px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="profile.jpg" alt="Profile Photo" />
+    <h1>Jamal Mohamed Ibrahim F</h1>
+    <p>Health & Safety Consultant | Safety Engineer</p>
+  </header>
+
+  <section class="card">
+    <h2>Career Objective</h2>
+    <p>To implement advanced safety, sustainability, and engineering practices in industries in civil, mechanical and Oil & Gas domains. I strive to protect health, safety and environments through innovation, analysis, and leadership.</p>
+  </section>
+
+  <section class="card">
+    <h2>About Me</h2>
+    <p>I’m an aspiring safety professional with academic and working experience in industrial hygiene, concrete structure enhancement, and environmental risk estimation. Curious, motivated, and committed to future-proof engineering solutions.</p>
+  </section>
+
+  <section class="card">
+    <h2>Work Experience</h2>
+    <ul>
+  <li>
+    <strong>Health and Safety Consultant</strong> — Salvific Safety Solution<br>
+    <em>Freelance | Mar 2024 – Present | Tamil Nadu, India</em><br>
+   The opportunity as instructor at a multinational company during their national safety day promotion event. It was an honor to be part of the Salvific Safety Solutions team in Chennai, specifically at the Gangaikondan Sipcot in Tirunelveli.
+  </li>
+</ul>
+  </section>
+
+  <section class="card">
+  <h2>Education</h2>
+  <ul>
+    <li>
+      <strong>1. Francis Xavier Engineering College</strong><br>
+      Master's Degree, Industrial Safety and Environmental Engineering<br>
+      <em>Jan 2023 – Jan 2025</em><br>
+      Grade: 80% <br>
+      Activities: Project paper, review, article, and research.<br>
+      M.Tech (Industrial Safety Engineering) is officially approved by the Labour Welfare and Skill Development Department, Government of Tamil Nadu, upon the recommendation of the Directorate of Industrial Safety and Health (DISH), Chennai. This program is DISH Approved and affiliated with Anna University.
+    </li>
+    <li>
+  <strong>2. Nellai College of Engineering</strong><br>
+  Bachelor's Degree, Civil Engineering<br>
+  <em>Jan 2017 – Jan 2022</em><br>
+  Grade: 70%
+</li>
+<li>
+  <strong>3. BSS Diploma in Safety</strong><br>
+  Diploma of Education, Quality Control and Safety Technologies/Technicians<br>
+  <em>Jan 2022 – Jan 2023</em><br>
+  Grade: 82%
+</li>
+  </ul>
+</section>
+  </section>
+
+
+ <section class="card">
+    <h2>Projects & Publications</h2>
+    <ul>
+      <li><strong>Concrete Beam Optimization : </strong>centered on optimizing the structural durability of
+concrete beams by integrating steel fiber reinforced
+polymer (FRP) materails.</li>
+      <li><strong>Waste Management (I Manager Publications) : </strong> Framework for maximizing resource recovery</li>
+      <li><strong>Health Risk Estimation (I Manager Publications) : </strong> AHP, FMEA, FTA applied to reduce health risks in textile industries <a href="Sustainable Urban Infrastructure.jpg" target="_blank">View Certificate</a></li>
+      <li><strong>Sustainable urban infrastructure : </strong> A Comprehensive Review of Environmental Safety Practices in Civil Engineering <a href="Health Risk Estimation.jpg" target="_blank">View Certificate</a></li> 
+
+    </ul>
+  </section>
+
+
+  <section class="card">
+    <h2>Certifications</h2>
+    <ul>
+      <li>CPR, First Aid & AED – Tamil Nadu Apex Skill Development <a href="first aid.jpg" target="_blank">View Certificate</a></li>
+      <li>Fire Safety, Confined Space Entry – Salvific Safety Solution</li>
+    </ul>
+  </section>
+
+
+  <section class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Design Thinking</span>
+      <span>Negotiation</span>
+      <span>Decision Making</span>
+      <span>Problem Solving</span>
+      <span>AutoCAD</span>
+      <span>C / C++</span>
+      <span>Communication</span>
+      <span>Creativity</span>
+      <span>Documentation</span>
+      <span>Risk Assessment</span>
+      <span>Safety Audits</span>
+    </div>
+  </section>
+
+  
+
+  <section class="card">
+    <h2>Tools & Technologies</h2>
+    <ul>
+      <li>AutoCAD Civil – 2D, 3D, Reinforcement Analysis</li>
+      <li>Microsoft Office Suite – Word, Excel, PowerPoint</li>
+      <li>Basic Programming – C, C++</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Languages</h2>
+    <ul>
+      <li>English – Professional</li>
+      <li>Tamil – Native</li>
+      <li>Arabic – Basic</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Contact</h2>
+    <ul>
+      <li><strong>Phone:</strong> +91 86106 63634</li>
+      <li><strong>Email:</strong> <a href="mailto:imbran456654@gmail.com">imbran456654@gmail.com</a></li>
+      <li><strong>Address:</strong> 16, 1st Kop Street, Pettai, Tirunelveli - 627004 </li>
+      <li><strong>YouTube:</strong> <a href="http://www.youtube.com/@JMI786" target="_blank">youtube.com/@JMI786</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jamal-mohamed-ibrahim-b55767244/" target="_blank">linkedin.com/in/jamal-mohamed-ibrahim</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Jamal Mohamed Ibrahim F. All Rights Reserved.
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.card').forEach(card => {
+      observer.observe(card);
+    });
+  </script>
+
+</body>
+</html>
